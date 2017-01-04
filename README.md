@@ -6,7 +6,7 @@ Created: 03/01/2017 by Zachary Williams of OrbitSystems.ca
 
 This class facilitates the creation of the Encrypted Blob needed when dynamically generating an Encrypted Paypal Payment Button.
 		
-	# Usage: 
+# Usage: 
 	1. Review 'Class Configuration' Section. Ensure Accuracy
 	2. Externally Instantiate Class via  $NewObject = new PayPal;
 	2(a). Possibly Set Class into SandBox Mode via  $NewObject->useSandBox();
