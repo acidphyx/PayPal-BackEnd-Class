@@ -1,4 +1,4 @@
-# PayPal-BackEnd-Class
+# PayPal Encrypted Button Generator
 Paypal Backend Functions such as Encrypted Button blob generation.
 
 		PayPal Backend Class
@@ -6,7 +6,7 @@ Paypal Backend Functions such as Encrypted Button blob generation.
 		
 		This class facilitates the creation of the Encrypted Blob needed when dynamically generating an Encrypted Paypal Payment Button.
 		
-		Usage: 
+# Usage: 
 			1. Review 'Class Configuration' Section. Ensure Accuracy
 			2. Externally Instantiate Class via  $NewObject = new PayPal;
 			2(a). Possibly Set Class into SandBox Mode via  $NewObject->useSandBox();
@@ -34,7 +34,7 @@ Paypal Backend Functions such as Encrypted Button blob generation.
 			getErrorState(): This method returns the current state of the private $ErrorState Property. (Returns Boolean (TRUE/FALSE)
 			getLastErrorMessage(): This method returns the private $LastErrorMessage Property. (Returns String)
 	
-# Example of the data arrays needed during a call to $this->GenerateEncryptedButon() from outside the class.
+# Example of Button Property Array used for generation of Subscription Buttons
 		    $ButtonData = array('lc' => 'CA', // Locality
 					'item_name' => 'Weekly Gold Subscription',
 					'no_note' => '1',
@@ -52,7 +52,7 @@ Paypal Backend Functions such as Encrypted Button blob generation.
 					'currency_code' => 'USD' // Currency of Purchase
 );
 
-# Build BuyNow Properties Array
+# Example of Button Property Array used for generation of Subscription Buttons
 		    $ButtonData = array('lc' => 'CA', // Locality
 					'item_name' => '100 Credits',
 					'amount' => '10.00', // Amount for Single Item Purchase
