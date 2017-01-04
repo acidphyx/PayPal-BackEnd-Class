@@ -34,7 +34,7 @@ Paypal Backend Functions such as Encrypted Button blob generation.
 			getErrorState(): This method returns the current state of the private $ErrorState Property. (Returns Boolean (TRUE/FALSE)
 			getLastErrorMessage(): This method returns the private $LastErrorMessage Property. (Returns String)
 	
-/* // Example of the data arrays needed during a call to $this->GenerateEncryptedButon() from outside the class.
+// Example of the data arrays needed during a call to $this->GenerateEncryptedButon() from outside the class.
 $ButtonData = array('lc' => 'CA', // Locality
 					'item_name' => 'Weekly Gold Subscription',
 					'no_note' => '1',
@@ -65,4 +65,3 @@ $ButtonData = array('lc' => 'CA', // Locality
 					'cancel_return' => 'http://cannixnorthern.ca/cancel/1ms', // Address users are returned to after canceled purchase
 					'tax_rate' => '7.000', // Tax Rate Charged(float) in % (ie: 7.000%)
 				);
-*/
